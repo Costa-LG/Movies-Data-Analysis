@@ -1,0 +1,1 @@
+SELECT * FROM `top_10_gross_income`;
