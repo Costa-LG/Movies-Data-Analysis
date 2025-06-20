@@ -88,3 +88,9 @@ python -m venv venv
 venv\Scripts\activate # Windows
 source venv/bin/activate # Linux
 ```
+
+### Instalando Dependências
+
+```
+pip install -r requirements.txt
+```
