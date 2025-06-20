@@ -81,3 +81,10 @@ git clone https://github.com/Costa-LG/Movies-Data-Analysis.git
 cd Movies-Data-Analysis
 ```
 
+### Criando o ambiente virtual
+
+```
+python -m venv venv
+venv\Scripts\activate # Windows
+source venv/bin/activate # Linux
+```
