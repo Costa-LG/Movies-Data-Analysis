@@ -67,8 +67,17 @@ erDiagram
 		TEXT plot
 	}
 	
-    actor }|--|{ Movie : stars
-    Movie }|--|| directors : directs
+    actors }|--|{ movies : stars
+    movies }|--|| directors : directs
+    movies ||--|| plots: has
 ```
 
 ## Setup
+
+Para aqueles que nao apenas desejam ver os resultados, mas também acompanhar seu desenvolvimento, é necessário primeiramente clonar o repositório.
+
+```
+git clone https://github.com/Costa-LG/Movies-Data-Analysis.git
+cd Movies-Data-Analysis
+```
+
