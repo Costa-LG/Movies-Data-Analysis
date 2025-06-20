@@ -94,3 +94,13 @@ source venv/bin/activate # Linux
 ```
 pip install -r requirements.txt
 ```
+
+## Passos
+
+Terminada as preparações, aqui estão ordenados os próximos passos, assim como os arquivos correspondentes do repositório.
+
+1. Cleaning_Data.ipynb
+> Como o nome indica, este notebook contém um programa em `pandas` para a limeza de dados.
+2. schema.sql
+> Neste arquivo foram criadas as devidas tabelas em `MySQL`
+
