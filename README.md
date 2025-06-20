@@ -67,8 +67,8 @@ erDiagram
 		TEXT plot
 	}
 	
-    actor }|--|{ Movie : stars
-    Movie }|--|| directors : directs
+    actors }|--|{ movies : stars
+    movies }|--|| directors : directs
 ```
 
 ## Setup
