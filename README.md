@@ -67,9 +67,9 @@ erDiagram
 		TEXT plot
 	}
 	
-    actors }|--|{ movies : stars
+    actors }o--|{ movies : stars
     movies }|--|| directors : directs
-    movies ||--|| plots: has
+    movies ||--|| plots: have
 ```
 
 ## Setup

@@ -7,8 +7,8 @@ USE `imdb`;
 -- tempararily deactivating foreign key constraint verification
 SET FOREIGN_KEY_CHECKS = 0;
 
-DROP TABLE IF EXISTS `acted`;
-DROP TABLE IF EXISTS `directed`;
+DROP TABLE IF EXISTS `acts`;
+DROP TABLE IF EXISTS `directs`;
 DROP TABLE IF EXISTS `plots`;
 DROP TABLE IF EXISTS `movies`;
 DROP TABLE IF EXISTS `actors`;
@@ -53,7 +53,7 @@ CREATE TABLE `plots` (
 
 
 -- CREATING JUNCTION TABLES
-CREATE TABLE `directed` (
+CREATE TABLE `directs` (
 	`movie_id` INT,
     `director_id` INT,
     FOREIGN KEY (`movie_id`) REFERENCES `movies`(`id`),
